@@ -1,20 +1,35 @@
 html , body{
     padding:0;
     margin:0;
+    background-color:#7a1501;
 }
 
 nav{
-    
+    display:flex;
+    margin-top:0;
+    background-color:white;
 }
 
 ul{
-    display:flex;
-    display-direction:row;
-    justify-content:center;
+   display:flex; 
 }
 
 li{
     list-style-type:none;
+    display-direction:column;
+    justify-content:center;
+}
 
+img{
+    justify-content:center;
+}
+
+footer{
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+
+article{
     
 }
